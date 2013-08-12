@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="../jquery.mapper.css" />
+    <title>Mapper.js</title>
+</head>
+<body>
+    <div class="wwwp-mapper-wrapper">
+        <img id="demo" src="demo.jpg" usemap="#demo-map" />
+        <map name="demo-map">
+            <area shape="poly" coords="244,121,270,103,440,105,445,150,396,151,396,201,318,229,265,229,262,199,304,176,295,165,268,172,253,159,244,121" href="#" alt="" />
+        </map>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="../jquery.mapper.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#demo').mapper({
+                onAreaClick: function (area) {
+                    if (alert) alert('click');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
