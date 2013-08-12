@@ -2,7 +2,7 @@
 
 Mapper is a Javascript plugin for drawing a HTML `<map>` on an image. It provides hooks on initialization and several mouse events so you can trigger your own code when a certain area gets hovered or clicked.
 
-Written by Thijs ([@pieterbeulque](http://twitter.com/pieterbeulque))
+Written by Pieter ([@pieterbeulque](http://twitter.com/pieterbeulque))
 at We Work We Play
 [weworkweplay.com](http://weworkweplay.com)
 
